@@ -29,7 +29,9 @@ Siga os passos abaixo para rodar o projeto localmente.
 	```bash
     npm install ou yarn install
 3.  **Inicie o servidor de desenvolvimento:**
-npm run dev ou yarn dev
+
+	```bash
+	npm run dev ou yarn dev
 
 5.  **Acesse a aplicação:**
     ```bash
@@ -127,21 +129,21 @@ npm run dev ou yarn dev
 
 ## Estrutura do Projeto
 
-```bash
-
-previsao-do-tempo/
-├── public/                  # Arquivos estáticos (imagens, fonts, etc.)
-├── src/
-│   ├── components/          # Componentes reutilizáveis
-│   ├── context/             # Contextos globais (WeatherContext, FavoriteCitiesContext)
-│   ├── pages/               # Páginas da aplicação
-│   ├── types/               # Tipos TypeScript
-│   ├── utils/               # Funções utilitárias (ex: getBackgroundImageForWeather)
-│   ├── styles/              # Estilos globais e CSS
-│   └── app/                 # Configurações do Next.js (layout, providers)
-├── .env.local               # Variáveis de ambiente
-├── package.json             # Dependências e scripts
-└── README.md                # Documentação do projeto
+	```bash
+	
+	previsao-do-tempo/
+	├── public/                  # Arquivos estáticos (imagens, fonts, etc.)
+	├── src/
+	│   ├── components/          # Componentes reutilizáveis
+	│   ├── context/             # Contextos globais (WeatherContext, FavoriteCitiesContext)
+	│   ├── pages/               # Páginas da aplicação
+	│   ├── types/               # Tipos TypeScript
+	│   ├── utils/               # Funções utilitárias (ex: getBackgroundImageForWeather)
+	│   ├── styles/              # Estilos globais e CSS
+	│   └── app/                 # Configurações do Next.js (layout, providers)
+	├── .env.local               # Variáveis de ambiente
+	├── package.json             # Dependências e scripts
+	└── README.md                # Documentação do projeto
 
 ----------
 
