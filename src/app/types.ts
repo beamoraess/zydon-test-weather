@@ -47,8 +47,10 @@ export interface WeatherData {
         main: string;
         description: string;
       }>;
-      // Other properties...
     }>;
-    // Other properties...
   }
   
+  export interface FavoriteCitiesContextType {
+    favoriteCities: string[];
+    toggleFavorite: (city: string) => void;
+  }

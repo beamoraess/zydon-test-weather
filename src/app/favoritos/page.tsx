@@ -46,7 +46,7 @@ export default function Favoritos() {
       }}
     >
       <button
-        onClick={() => router.push("/")} // Redireciona para a página inicial
+        onClick={() => router.push("/")}
         className="absolute top-4 left-4 p-2 rounded-full bg-white/10 hover:bg-white/20 transition-colors"
       >
         <ArrowLeftIcon className="h-6 w-6 text-white" />
