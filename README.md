@@ -46,7 +46,7 @@ Siga os passos abaixo para rodar o projeto localmente.
 
 -   Pesquise o clima de qualquer cidade digitando o nome no campo de busca.
     
--   Exibe informações como temperatura, umidade, velocidade do vento e condições climáticas atuais.
+-   Exibe informações como temperatura, umidade, velocidade do vento e condições climáticas atuais e muda o background de acordo com a condição climática.
     
 
 ### 2.  **Detalhes do Clima**
