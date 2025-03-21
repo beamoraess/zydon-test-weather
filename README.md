@@ -14,7 +14,6 @@ Siga os passos abaixo para rodar o projeto localmente.
 
 - Node.js (versão 18 ou superior)
 - NPM ou Yarn
-- Chave de API do [OpenWeatherMap](https://openweathermap.org/api)
 
 ### Passos
 
