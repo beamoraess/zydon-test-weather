@@ -77,7 +77,7 @@ Siga os passos abaixo para rodar o projeto localmente.
 
 ### 1.  **Next.js**
 
--   O teste solicitava o uso de **Vite** porem a melhor opção é **Next.js**  pela sua capacidade de renderização do lado do servidor (SSR) e geração estática (SSG), o que melhora o desempenho e a SEO da aplicação.
+-   O teste solicitava o uso de **Vite** porém a melhor opção é **Next.js**  pela sua capacidade de renderização tanto do lado do servidor (SSR) e geração estática (SSG), o que melhora o desempenho e a SEO da aplicação. O Vite pode ser configurado para SSR, mas exige mais esforço manual, enquanto o Next.js já tem suporte embutido e otimizado.
     
 -   O uso de rotas dinâmicas facilita a criação de páginas para cada cidade.
     
