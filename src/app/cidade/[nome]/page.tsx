@@ -21,7 +21,13 @@ export default function CityWeather() {
   const router = useRouter();
 
   if (!weather || !forecast) {
-    return <p>Carregando...</p>;
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-red-500 text-lg font-semibold">
+          Não foi possível carregar os dados. Tente novamente mais tarde.
+        </p>
+      </div>
+    );
   }
 
   const hourlyForecast = forecast.list.slice(0, 8).map((entry) => ({
